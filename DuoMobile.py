@@ -14,10 +14,10 @@ driver.get(driver.current_url)  # connect to re-directed site - login
 
 # log in
 txtUsername = driver.find_element_by_xpath('//*[@id="ucWUSTLKeyLogin_txtUsername"]')
-txtUsername.send_keys('a.m.schwartz')
+txtUsername.send_keys('username')
 
 txtPassword = driver.find_element_by_xpath('//*[@id="ucWUSTLKeyLogin_txtPassword"]')
-txtPassword.send_keys('Orow2233')
+txtPassword.send_keys('password')
 
 btnLogin = driver.find_element_by_xpath('//*[@id="ucWUSTLKeyLogin_btnLogin"]')
 btnLogin.click()
